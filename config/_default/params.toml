@@ -1,0 +1,77 @@
+# -----------------------------------------------
+# Global
+# -----------------------------------------------
+colorScheme = "ocean"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+enableSearch = true
+enableCodeCopy = true
+disableTextInHeader = false
+
+# -----------------------------------------------
+# Header
+# -----------------------------------------------
+[header]
+  layout = "fixed"
+
+# -----------------------------------------------
+# Footer
+# -----------------------------------------------
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+# -----------------------------------------------
+# Homepage
+# -----------------------------------------------
+[homepage]
+  layout = "hero"
+  homepageImage = "img/hero-bg.png"
+  showRecent = true
+  showRecentItems = 3
+  showMoreLink = true
+  showMoreLinkDest = "/events"
+  cardView = true
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = true
+
+# -----------------------------------------------
+# Article
+# -----------------------------------------------
+[article]
+  showDate = true
+  showDateUpdated = false
+  showAuthor = false
+  showHero = true
+  heroStyle = "big"
+  showBreadcrumbs = true
+  showHeadingAnchors = true
+  showPagination = true
+  showReadingTime = false
+  showTableOfContents = false
+  showTaxonomies = true
+  showTags = true
+  showCategories = true
+
+# -----------------------------------------------
+# List pages
+# -----------------------------------------------
+[list]
+  showHero = true
+  heroStyle = "basic"
+  showBreadcrumbs = false
+  showSummary = true
+  showCards = true
+  groupByYear = false
+  cardView = true
+  cardViewScreenWidth = false
+  constrainItemsWidth = false
+
+# -----------------------------------------------
+# Sitemap
+# -----------------------------------------------
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]

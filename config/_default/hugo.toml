@@ -1,0 +1,14 @@
+baseURL = "https://psoh.io/"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+summaryLength = 0
+
+[pagination]
+  pagerSize = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"

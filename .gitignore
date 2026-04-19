@@ -1,0 +1,9 @@
+# Hugo build output
+public/
+
+# Hugo local server cache and lock file
+.hugo_build.lock
+resources/_gen/
+
+# Hugo module cache (local only, restored via hugo mod tidy)
+/hugo_cache/

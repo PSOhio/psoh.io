@@ -1,0 +1,44 @@
+[[main]]
+  name = "Events"
+  pageRef = "/events"
+  weight = 10
+
+[[main]]
+  name = "Speakers"
+  pageRef = "/speakers"
+  weight = 20
+
+[[main]]
+  name = "Resources"
+  pageRef = "/resources"
+  weight = 30
+
+[[main]]
+  name = "About"
+  pageRef = "/about"
+  weight = 40
+
+[[footer]]
+  name = "Events"
+  pageRef = "/events"
+  weight = 10
+
+[[footer]]
+  name = "Speakers"
+  pageRef = "/speakers"
+  weight = 20
+
+[[footer]]
+  name = "Resources"
+  pageRef = "/resources"
+  weight = 30
+
+[[footer]]
+  name = "About"
+  pageRef = "/about"
+  weight = 40
+
+[[footer]]
+  name = "GitHub"
+  url = "https://github.com/PSOhio"
+  weight = 50

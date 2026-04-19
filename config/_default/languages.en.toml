@@ -1,0 +1,21 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "PowerShell Ohio"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  dateFormat = "January 2, 2006"
+  description = "Central Ohio's PowerShell User Group — meetups, talks, and resources for the PowerShell community."
+  copyright = "© {year} PowerShell Ohio User Group"
+  logo = "img/psoh.io_logo_color.png"
+
+  [params.author]
+    name = "PowerShell Ohio"
+    image = "img/psoh.io_logo_color.png"
+    headline = "Central Ohio's PowerShell User Group"
+    bio = "A community of PowerShell enthusiasts and IT professionals in the Columbus, Ohio area."
+    links = [
+      { github = "https://github.com/PSOhio" }
+    ]
