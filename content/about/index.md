@@ -7,7 +7,7 @@ description: "Learn about the PowerShell Ohio User Group — who we are, what we
 
 ## Who We Are
 
-**PowerShell Ohio** is a community of PowerShell enthusiasts, IT professionals, systems administrators, and developers based in the Columbus, Ohio area.
+**PowerShell Ohio** is a community of PowerShell enthusiasts, IT professionals, systems administrators, and developers across the state of Ohio.
 
 We are an inclusive, beginner-friendly group that welcomes anyone interested in PowerShell — whether you've never written a script or you're a seasoned automation engineer.
 
@@ -15,7 +15,7 @@ We are an inclusive, beginner-friendly group that welcomes anyone interested in 
 
 - **Monthly meetups** — hands-on sessions, deep dives, and demos covering PowerShell and the broader automation ecosystem
 - **Speaker presentations** — community members and industry experts share real-world experience
-- **Networking** — connect with fellow PowerShell practitioners in central Ohio
+- **Networking** — connect with fellow PowerShell practitioners across Ohio and beyond
 - **Resources** — slides, recordings, and code samples from every session are made freely available
 
 ## Get Involved
@@ -26,6 +26,10 @@ There are many ways to participate:
 - **Give a talk** — we welcome speakers of all experience levels; reach out via [GitHub](https://github.com/PSOhio)
 - **Contribute** — this site is open source at [github.com/PSOhio/psoh.io](https://github.com/PSOhio/psoh.io)
 
-## Organizers
+## Connect with Organizers
 
-The group is run by volunteers from the central Ohio tech community. If you'd like to help organize events or sponsor a meetup, open an issue on our GitHub repository.
+Want to connect with the organizers? Click a profile link below
+
+- Jake Hildreth
+- Stephen Valdinger
+- Ryan Richter
