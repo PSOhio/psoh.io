@@ -8,7 +8,7 @@ title = "PowerShell Ohio"
   isoCode = "en"
   dateFormat = "January 2, 2006"
   description = "Central Ohio's PowerShell User Group — meetups, talks, and resources for the PowerShell community."
-  copyright = "© {year} PowerShell Ohio User Group"
+  copyright = "© 2026 PowerShell Ohio User Group"
   logo = "img/psoh.io_logo_color.png"
 
   [params.author]
