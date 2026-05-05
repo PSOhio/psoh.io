@@ -98,6 +98,28 @@ Remove `draft = true` from the front matter when the content is ready to publish
 | `video_url` | Link to recording |
 | `tags` | Topic tags |
 
+## Navigation
+
+Header and footer links are defined in `config/_default/menus.en.toml`.
+
+Each entry follows this structure:
+
+```toml
+[[main]]          # 'main' = header nav; 'footer' = footer nav
+  name = "Label"  # link text displayed in the nav
+  pageRef = "/path" # links to a content page at content/path/
+  # url = "https://..." # use 'url' instead of 'pageRef' for external links
+  weight = 10     # controls order (lower = further left/up)
+```
+
+To **add a link**: append a new `[[main]]` or `[[footer]]` block and set `weight` to position it.
+
+To **remove a link**: delete the corresponding block.
+
+To **reorder links**: adjust the `weight` values (links are sorted ascending).
+
+After editing, run `hugo server -D` and check the header/footer to confirm the change.
+
 ## Theme
 
 The site uses [Blowfish v2](https://blowfish.page/) installed as a Hugo module. To update:
