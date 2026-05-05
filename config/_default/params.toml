@@ -2,7 +2,7 @@
 # Global
 # -----------------------------------------------
 colorScheme = "ocean"
-defaultAppearance = "light"
+defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
