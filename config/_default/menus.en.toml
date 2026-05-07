@@ -49,6 +49,6 @@
   weight = 40
 
 [[footer]]
-  name = "GitHub"
+  pre = "github"
   url = "https://github.com/PSOhio"
   weight = 50
