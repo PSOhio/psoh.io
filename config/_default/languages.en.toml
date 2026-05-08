@@ -18,7 +18,7 @@ title = "PowerShell Ohio"
     bio = "A community of PowerShell enthusiasts and IT professionals in the Columbus, Ohio area."
     links = [
       { github = "https://github.com/PSOhio" },
-      { youtube = "" },
+      { youtube = "https://www.youtube.com/@PowerShellOhioUserGroup" },
       { bluesky = ""},
       { meetup = ""}
     ]
