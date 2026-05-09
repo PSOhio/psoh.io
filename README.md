@@ -37,14 +37,25 @@ psoh.io/
 │   └── params.toml       # Blowfish theme parameters
 ├── archetypes/
 │   ├── events.md         # Front matter template for new events
+│   ├── organizers.md     # Front matter template for new organizers
 │   ├── speakers.md       # Front matter template for new speakers
 │   └── resources.md      # Front matter template for new resources
 ├── content/
 │   ├── _index.md         # Homepage hero
 │   ├── about/            # About the group
 │   ├── events/           # Meetup listings (upcoming + past)
+│   ├── organizers/       # Organizer profiles
 │   ├── resources/        # Slides, recordings, code from sessions
 │   └── speakers/         # Speaker profiles
+├── layouts/
+│   ├── organizers/
+│   │   └── single.html   # Profile page layout (supports photo field)
+│   └── speakers/
+│       └── single.html   # Profile page layout (supports photo field)
+├── static/
+│   └── img/
+│       ├── organizers/   # Profile photos for organizers
+│       └── speakers/     # Profile photos for speakers
 └── .github/workflows/
     └── hugo.yml          # GitHub Pages deployment (on PR merge to main)
 ```
@@ -85,7 +96,54 @@ Remove `draft = true` from the front matter when the content is ready to publish
 | `description` | One-line bio summary |
 | `github` / `linkedin` | Handle (not full URL) |
 | `company` | Current employer |
+| `photo` | Path to profile photo (see [Adding a profile photo](#adding-a-profile-photo)) |
 | `tags` | Topic areas |
+
+### Organizer front matter fields
+
+| Field | Description |
+|---|---|
+| `title` | Organizer's full name |
+| `description` | One-line bio summary |
+| `github` / `linkedin` | Handle (not full URL) |
+| `company` | Current employer |
+| `photo` | Path to profile photo (see [Adding a profile photo](#adding-a-profile-photo)) |
+| `tags` | Topic areas |
+
+### Adding a profile photo
+
+Profile photos appear as a circular avatar next to the person's name on their individual page. Supported for both organizers and speakers.
+
+**Step 1 — Prepare the image**
+
+Use a square image for best results (the browser crops it to a circle). JPG or PNG, minimum 256×256 px recommended.
+
+**Step 2 — Place the file in the correct folder**
+
+| Page type | Folder | Example filename |
+|---|---|---|
+| Organizer | `static/img/organizers/` | `stephen-valdinger.jpg` |
+| Speaker | `static/img/speakers/` | `jane-smith.jpg` |
+
+Name the file to match the person's content file (replace spaces with hyphens, all lowercase).
+
+**Step 3 — Set the `photo` field in the front matter**
+
+Open the person's content file and set `photo` to the path of the image:
+
+```yaml
+# For an organizer — content/organizers/stephen-valdinger.md
+photo: "/img/organizers/stephen-valdinger.jpg"
+
+# For a speaker — content/speakers/jane-smith.md
+photo: "/img/speakers/jane-smith.jpg"
+```
+
+**Step 4 — Verify locally**
+
+Run `hugo server -D` and open the person's page. The photo should appear as a circle to the left of their name.
+
+> If the photo does not appear, double-check that the filename in `static/` matches exactly (including case) what is set in the `photo` field.
 
 ### Resource front matter fields
 

@@ -6,6 +6,7 @@ description: "Wearer of Hats @ Chocolatey Software"
 github: "steviecoaster"
 linkedin: "in/stephenvaldinger"
 company: "Chocolatey Software"
+photo: "/img/organizers/stephen-valdinger.png"
 tags: ["organizer", "automation"]
 ---
 

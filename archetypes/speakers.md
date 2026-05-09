@@ -7,6 +7,7 @@ github = ""
 twitter = ""
 linkedin = ""
 company = ""
+photo = ""
 tags = []
 +++
 
