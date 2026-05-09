@@ -19,6 +19,6 @@ title = "PowerShell Ohio"
     links = [
       { github = "https://github.com/PSOhio" },
       { youtube = "https://www.youtube.com/@PowerShellOhioUserGroup" },
-      { bluesky = ""},
+      { bluesky = "https://bsky.app/profile/psoh.io"},
       { meetup = ""}
     ]
