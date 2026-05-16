@@ -1,5 +1,6 @@
 baseURL = "https://psoh.io/"
 defaultContentLanguage = "en"
+title = "PowerShell Ohio"
 enableRobotsTXT = true
 summaryLength = 0
 
