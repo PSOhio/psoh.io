@@ -1,0 +1,57 @@
+name: Speaker Proposal
+description: Propose a session topic for an upcoming PowerShell Ohio meetup.
+title: "[Speaker Proposal] "
+labels: ["speaker-proposal"]
+body:
+  - type: input
+    id: session-title
+    attributes:
+      label: Session Title
+      placeholder: e.g. "Automating Azure with PowerShell and Bicep"
+    validations:
+      required: true
+
+  - type: textarea
+    id: abstract
+    attributes:
+      label: Abstract
+      description: A brief summary of what attendees will learn. 2–5 sentences is ideal.
+      placeholder: This session will cover...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: skill-level
+    attributes:
+      label: Skill Level
+      description: What prior knowledge should attendees have?
+      options:
+        - "100 – Introductory (no prior experience required)"
+        - "200 – Intermediate (some familiarity with the topic)"
+        - "300 – Advanced (hands-on experience expected)"
+        - "400 – Expert (deep technical knowledge required)"
+    validations:
+      required: true
+
+  - type: input
+    id: contact-bluesky
+    attributes:
+      label: Bluesky
+      placeholder: "@you.bsky.social"
+
+  - type: input
+    id: contact-x
+    attributes:
+      label: X (Twitter)
+      placeholder: "@yourhandle"
+
+  - type: input
+    id: contact-linkedin
+    attributes:
+      label: LinkedIn
+      placeholder: "https://www.linkedin.com/in/yourprofile"
+
+  - type: markdown
+    attributes:
+      value: |
+        > Please fill in at least one contact field so we can reach you about your proposal.
