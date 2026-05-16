@@ -57,8 +57,3 @@
   pre = "github"
   url = "https://github.com/PSOhio"
   weight = 50
-
-[[footer]]
-  pre = "meetup"
-  url = "https://www.meetup.com/powershellohio/"
-  weight = 60

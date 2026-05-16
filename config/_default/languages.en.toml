@@ -20,5 +20,5 @@ title = "PowerShell Ohio"
       { github = "https://github.com/PSOhio" },
       { youtube = "https://www.youtube.com/@PowerShellOhioUserGroup" },
       { bluesky = "https://bsky.app/profile/psoh.io"},
-      { meetup = ""}
+      { meetup = "https://www.meetup.com/powershellohio/"}
     ]
