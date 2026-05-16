@@ -7,14 +7,14 @@ title = "PowerShell Ohio"
   displayName = "EN"
   isoCode = "en"
   dateFormat = "January 2, 2006"
-  description = "Central Ohio's PowerShell User Group — meetups, talks, and resources for the PowerShell community."
+  description = "Ohio's PowerShell User Group — meetups, talks, and resources for the PowerShell community."
   copyright = "© 2026 PowerShell Ohio User Group"
   logo = "img/psoh.io_logo_color.png"
 
   [params.author]
     name = "PowerShell Ohio"
     image = "img/psoh.io_logo_color.png"
-    headline = "Central Ohio's PowerShell User Group"
+    headline = "Ohio's PowerShell User Group"
     bio = "A community of PowerShell enthusiasts and IT professionals in the Columbus, Ohio area."
     links = [
       { github = "https://github.com/PSOhio" },
