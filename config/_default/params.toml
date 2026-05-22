@@ -28,7 +28,7 @@ disableTextInHeader = false
 # Homepage
 # -----------------------------------------------
 [homepage]
-  layout = "hero"
+  layout = "background"
   homepageImage = "img/hero-bg.png"
   showRecent = true
   showRecentItems = 3
