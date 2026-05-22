@@ -36,7 +36,7 @@ Supports github, bluesky, twitter, linkedin, website.
 
 {{ if $linkedin }}
   {{ $handle := $linkedin }}
-  {{ $items = $items | append (dict "url" (cond (strings.HasPrefix $handle "http") $handle (printf "https://www.linkedin.com/%s" $handle)) "label" "LinkedIn" "icon" "linkedin") }}
+  {{ $items = $items | append (dict "url" (cond (strings.HasPrefix $handle "http") $handle (printf "https://www.linkedin.com/in/%s" $handle)) "label" "LinkedIn" "icon" "linkedin") }}
 {{ end }}
 
 {{ if $website }}

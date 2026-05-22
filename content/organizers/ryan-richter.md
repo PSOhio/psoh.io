@@ -4,8 +4,8 @@ date: 2026-05-04
 draft: false
 description: "Senior Support Engineer and PowerShell Nerd"
 github: "ryanrichter94"
-bluesky: "ryanrichter94"
-linkedin: "in/ryanrichter94"
+bluesky: "ryanrichter94.bsky.social"
+linkedin: "ryanrichter94"
 company: "Chocolatey Software"
 tags: ["organizer"]
 ---

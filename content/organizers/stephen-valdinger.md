@@ -4,7 +4,7 @@ date: 2026-05-04
 draft: false
 description: "Wearer of Hats @ Chocolatey Software"
 github: "steviecoaster"
-linkedin: "in/stephenvaldinger"
+linkedin: "stephenvaldinger"
 company: "Chocolatey Software"
 photo: "/img/organizers/stephen-valdinger.png"
 tags: ["organizer", "automation"]

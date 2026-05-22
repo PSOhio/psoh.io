@@ -4,7 +4,7 @@ date: 2026-05-08
 draft: false
 description: "Husband, Dad, Recovering Sysadmin"
 github: "jakehildreth"
-linkedin: "in/jakehildreth"
+linkedin: "jakehildreth"
 company: "Semperis"
 tags: ["organizer", "security", "identity", "active directory", "pki"]
 ---
