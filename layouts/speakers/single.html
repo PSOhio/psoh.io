@@ -40,6 +40,10 @@
       <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         {{ partial "article-meta/basic.html" (dict "context" . "scope" "single") }}
       </div>
+
+      <div class="pt-3">
+        {{ partial "profile-social-links.html" . }}
+      </div>
       {{ if not (.Params.showAuthorBottom | default (site.Params.article.showAuthorBottom | default false)) }}
         {{ template "SingleAuthor" . }}
       {{ end }}
