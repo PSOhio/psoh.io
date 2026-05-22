@@ -30,6 +30,6 @@ There are many ways to participate:
 
 Want to connect with the organizers? Click a profile link below
 
-- Jake Hildreth
-- Stephen Valdinger
-- Ryan Richter
+- [Jake Hildreth](/organizers/jake-hildreth)
+- [Stephen Valdinger](/organizers/stephen-valdinger)
+- [Ryan Richter](/organizers/ryan-richter)
