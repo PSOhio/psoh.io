@@ -55,3 +55,15 @@ body:
     attributes:
       value: |
         > Please fill in at least one contact field so we can reach you about your proposal.
+
+  - type: input
+    id: contact-website
+    attributes:
+      label: Website/Blog
+      placeholder: "https://yourwebsite.com"
+
+  - type: input
+    id: contact-github
+    attributes:
+      label: GitHub
+      placeholder: "https://github.com/yourprofile"
