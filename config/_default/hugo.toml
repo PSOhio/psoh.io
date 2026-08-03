@@ -3,6 +3,7 @@ defaultContentLanguage = "en"
 title = "PowerShell Ohio"
 enableRobotsTXT = true
 summaryLength = 0
+buildFuture = true
 
 [pagination]
   pagerSize = 10
