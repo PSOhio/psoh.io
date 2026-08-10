@@ -23,7 +23,7 @@ We are an inclusive, beginner-friendly group that welcomes anyone interested in 
 There are many ways to participate:
 
 - **Attend a meetup** — check the [Events](/events) page for upcoming sessions
-- **Give a talk** — we welcome speakers of all experience levels; reach out via [GitHub](https://github.com/PSOhio)
+- **Give a talk** — we welcome speakers of all experience levels; submit your talk to our [Sessionize Page](https://sessionize.com/powershell-ohio-user-group)
 - **Contribute** — this site is open source at [github.com/PSOhio/psoh.io](https://github.com/PSOhio/psoh.io)
 
 ## Connect with Organizers
