@@ -21,9 +21,16 @@
 
       {{/* Profile Photo + Name */}}
       {{ with .Params.photo }}
+        {{ $photoSrc := . }}
+        {{ if and (not (strings.HasPrefix $photoSrc "/")) (not (strings.HasPrefix $photoSrc "http://")) (not (strings.HasPrefix $photoSrc "https://")) }}
+          {{ $assetPath := strings.TrimPrefix "assets/" $photoSrc }}
+          {{ with resources.Get $assetPath }}
+            {{ $photoSrc = .RelPermalink }}
+          {{ end }}
+        {{ end }}
         <div class="flex flex-col items-center mb-4">
           <img
-            src="{{ . }}"
+            src="{{ $photoSrc }}"
             alt="{{ $.Title }}"
             style="width: 5rem; height: 5rem;"
             class="rounded-full object-cover ring-2 ring-primary-500 dark:ring-primary-400 nozoom">

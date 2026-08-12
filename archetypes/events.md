@@ -6,6 +6,7 @@ description = ""
 location = "Columbus, OH"
 rsvp_url = ""
 is_upcoming = true
+speakers = []
 tags = []
 +++
 
