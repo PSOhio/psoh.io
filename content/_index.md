@@ -14,7 +14,7 @@ Ready to submit a session? Click the Sessionize image below.
 {{< figure
     src="https://sessionize.com/landing/images/brand/banners/sessionize-banner-wide.png"
     alt="The smart way to do Call for Papers, Schedule and Speaker Management."
-    href="https://sessionize.com/powershell-ohio-user-group"
+    href="https://sessionize.com/powershell-ohio-user-group/?e=ff406b"
     nozoom=true
     class="mx-auto"
     >}}
