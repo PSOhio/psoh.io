@@ -1,11 +1,10 @@
 +++
-title = "Cha-ching! Adding Value to PowerShell Functions w/ Jeffery Hicks"
+title = "Adding Value to PowerShell Functions w/Jeffery Hicks"
 date = 2026-10-01T19:00:00-04:00
 draft = false
 description = "Level up your PowerShell functions with Jeffery Hicks as we go over different output streams to leverage within them."
 location = "Online"
-rsvp_url = "https://www.meetup.com/powershellohio/events/316581155/"
-is_upcoming = true
+is_upcoming = false
 speakers = ["jeffery-hicks"]
 tags = ["community", "powershell", "functions"]
 +++

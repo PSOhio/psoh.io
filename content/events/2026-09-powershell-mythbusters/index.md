@@ -4,8 +4,7 @@ date = 2026-09-03T19:00:00-04:00
 draft = false
 description = "Put common PowerShell advice to the test with Matthew Dowst as we benchmark myths, edge cases, and best practices."
 location = "Online"
-rsvp_url = "https://www.meetup.com/powershellohio/events/316089030/"
-is_upcoming = true
+is_upcoming = false
 speakers = ["matthew-dowst"]
 tags = ["community", "powershell", "performance", "mythbusters"]
 +++
@@ -29,5 +28,3 @@ Event details:
 - Date: Thursday, September 3, 2026
 - Time: 7:00 PM to 8:00 PM EDT
 - Location: Online
-
-RSVP on Meetup: https://www.meetup.com/powershellohio/events/316089030/

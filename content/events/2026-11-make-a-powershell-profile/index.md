@@ -1,5 +1,5 @@
 +++
-title = ""
+title = "Make a PowerShell Profile That Runs on Any Version or Platform w/Sean Wheeler"
 date = 2026-11-05T19:00:00-04:00
 draft = false
 description = "Setup your PowerShell profile with Sean Wheeler as we go over making it version and platform aware."
