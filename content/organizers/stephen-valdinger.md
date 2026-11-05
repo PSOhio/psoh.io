@@ -3,8 +3,9 @@ title: "Stephen Valdinger"
 date: 2026-05-04
 draft: false
 description: "Wearer of Hats @ Chocolatey Software"
+bluesky: "steviecoaster.dev"
 github: "steviecoaster"
-linkedin: "stephenvaldinger"
+linkedin: "steviecoaster"
 company: "Chocolatey Software"
 photo: "/img/organizers/stephen-valdinger.png"
 tags: ["organizer", "automation"]
