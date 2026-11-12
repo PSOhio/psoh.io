@@ -2,7 +2,7 @@
 title = "Building Custom Components in PowerShell Universal w/Stephen Valdinger"
 date = 2026-12-03T19:00:00-04:00
 draft = false
-description = "Com along as Stephen Valdinger explain how to build custom components in PowerShell Universal."
+description = "Come along as Stephen Valdinger explains how to build custom components in PowerShell Universal."
 location = "Online"
 rsvp_url = "https://www.meetup.com/powershellohio/events/317209878"
 is_upcoming = true
