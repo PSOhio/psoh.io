@@ -1,6 +1,6 @@
 baseURL = "https://psoh.io/"
 defaultContentLanguage = "en"
-title = "PowerShell Ohio"
+title = "Ohio PowerShell User Group"
 enableRobotsTXT = true
 summaryLength = 0
 buildFuture = true

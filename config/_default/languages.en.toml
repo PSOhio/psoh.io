@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "PowerShell Ohio"
+title = "Ohio PowerShell User Group"
 
 [params]
   displayName = "EN"
@@ -12,9 +12,9 @@ title = "PowerShell Ohio"
   logo = "img/psoh.io_logo_color.png"
 
   [params.author]
-    name = "PowerShell Ohio"
+    name = "Ohio PowerShell User Group"
     image = "img/psoh.io_logo_color.png"
-    headline = "Ohio's PowerShell User Group"
+    headline = "Meetups, talks, and resources for the PowerShell community"
     bio = "A community of PowerShell enthusiasts and IT professionals in the Columbus, Ohio area."
     links = [
       { github = "https://github.com/PSOhio" },

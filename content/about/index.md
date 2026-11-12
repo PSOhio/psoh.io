@@ -1,13 +1,13 @@
 ---
-title: "About PowerShell Ohio"
+title: "About Ohio PowerShell User Group"
 date: 2026-01-01
 draft: false
-description: "Learn about the PowerShell Ohio User Group — who we are, what we do, and how to get involved."
+description: "Learn about the Ohio PowerShell User Group — who we are, what we do, and how to get involved."
 ---
 
 ## Who We Are
 
-**PowerShell Ohio** is a community of PowerShell enthusiasts, IT professionals, systems administrators, and developers across the state of Ohio.
+**Ohio PowerShell User Group** is a community of PowerShell enthusiasts, IT professionals, systems administrators, and developers across the state of Ohio.
 
 We are an inclusive, beginner-friendly group that welcomes anyone interested in PowerShell — whether you've never written a script or you're a seasoned automation engineer.
 
